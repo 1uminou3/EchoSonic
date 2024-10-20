@@ -45,10 +45,10 @@ const songs = [
         lyrics: 'assets/chi/l1/chi3.txt',
     },
     {
-        path: 'assets/chi/Joey Yung.mp3',
-        displayName: '女皇',
+        path: 'assets/chi/AGA.mp3',
+        displayName: '圓',
         cover: 'assets/chi/p1/4.jpg',
-        artist: '容祖兒 Joey Yung',
+        artist: 'AGA 江海迦',
         lyrics: 'assets/chi/l1/chi4.txt',
     },
     {
