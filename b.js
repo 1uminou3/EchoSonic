@@ -90,7 +90,7 @@ const songs = [
         path: 'assets/jap/b.mp3',
         displayName: "17さいのうた。",
         cover: 'assets/jap/p3/2.jpg',
-        artist: '『ユイカ』',
+        artist: 'Yuika (ユイカ)',
         lyrics: 'assets/jap/l3/jap2.txt',
     },
     {
