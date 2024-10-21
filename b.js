@@ -52,10 +52,10 @@ const songs = [
         lyrics: 'assets/chi/l1/chi4.txt',
     },
     {
-        path: 'assets/eng/Something Just Like This.mp3',
-        displayName: 'Something Just Like This',
+        path: 'assets/eng/owl.mp3',
+        displayName: 'My Muse',
         cover: 'assets/eng/p2/1.jpg',
-        artist: 'The Chainsmokers, Coldplay',
+        artist: 'Owl City',
         lyrics: 'assets/eng/l2/eng1.txt',
     },
     {
@@ -88,9 +88,9 @@ const songs = [
     },
     {
         path: 'assets/jap/b.mp3',
-        displayName: "空唄",
+        displayName: "17さいのうた。",
         cover: 'assets/jap/p3/2.jpg',
-        artist: 'Kentaro ft.汐菜',
+        artist: '『ユイカ』',
         lyrics: 'assets/jap/l3/jap2.txt',
     },
     {
