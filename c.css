@@ -170,17 +170,18 @@ body{
 h2{
     font-size: 25px;
     text-align: justify;
-    font-weight: 500;
-    margin: 15px 100px;
+    font-weight: 600;
+    margin: 15px 155px;
     white-space: nowrap;
 }
 
 h3{
-    font-size: 17px;
+    font-size: 18px;
     position: absolute;
-    font-weight: 500;
-    left: 100px;
+    font-weight: 400;
+    left: 155px;
     top:325px;
+    white-space: nowrap;
 }
 
 .player-progress{
