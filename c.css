@@ -46,7 +46,9 @@ body{
 }
 
 .container{
-    background-color: #e7e7e7;
+    background-image: url('assets/wallpaper.jpg');
+    background-size: cover;          
+    background-position: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -88,7 +90,7 @@ body{
     height: 100%;
     transition: all 0.5s;
     opacity: 1;
-    animation: rotate 5s linear infinite;
+    animation: rotate 9s linear infinite;
     animation-play-state: paused;
 }
 
@@ -106,10 +108,10 @@ body{
 }
 
 .control{
-    background-color: #212F3C;
+    background-color: #354A21;
     height: 30px;
     width: 30px;
-    border: 10px solid #5D6D7E;
+    border: 10px solid #607D3B;
     border-radius: 50%;
     position: absolute;
     top: -11px;
@@ -119,7 +121,7 @@ body{
 .tone-arm{
     height: 132px;
     width: 8px;
-    background-color: #99A3A4;
+    background-color: #C8B88A;
     position: absolute;
     top: 35px;
     right: -65px;
@@ -131,7 +133,7 @@ body{
     content: "";
     height: 45px;
     width: 8px;
-    background-color: #99A3A4;
+    background-color: #C8B88A;
     position: absolute;
     transform: rotate(30deg);
     bottom: -40px;
@@ -171,7 +173,7 @@ h2{
     font-size: 25px;
     text-align: justify;
     font-weight: 600;
-    margin: 15px 155px;
+    margin: 15px 90px;
     white-space: nowrap;
 }
 
@@ -179,7 +181,7 @@ h3{
     font-size: 18px;
     position: absolute;
     font-weight: 400;
-    left: 155px;
+    left: 90px;
     top:325px;
     white-space: nowrap;
 }
@@ -194,7 +196,7 @@ h3{
 }
 
 .progress{
-    background-color: #212121;
+    background-color: #035956;
     border-radius: 5px;
     height: 100%;
     width: 0%;
@@ -211,13 +213,13 @@ h3{
 .player-controls{
     position: absolute;
     bottom: -190px;
-    left: 115px;
+    left: 119px;
     width: 207px;
 }
 
 .fa-solid{
     font-size: 35px;
-    color: #666;
+    color: #035956;
     margin-right: 30px;
     cursor: pointer;
     user-select: none;
@@ -259,14 +261,14 @@ h3{
     border-radius: 50px;
     border: none;
     outline: none;
-    background: #111;
+    background: #607D3B;
     color: #fff;
     font-size: 20px;
     letter-spacing: 2px;
     cursor: pointer;
 }
 .animated-button:hover {
-    background: linear-gradient(90deg, #1e3c72, #2a5298, #3a7bd5, #2979ff, #4fc3f7, #81d4fa, #0288d1, #1565c0, #0d47a1, #1e3c72);
+    background: linear-gradient(90deg, #43a047, #66bb6a, #81c784, #a5d6a7, #c8e6c9, #a5d6a7, #81c784, #66bb6a, #43a047);
     background-size:400%;
 }
 .animated-button:before {
